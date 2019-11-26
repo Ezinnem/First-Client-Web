@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Project-form</title>
+  <link href="C:\Users\Nzubechukwu\Desktop\ezinne\css\Project-form.css" rel="stylesheet">
+  <script src="/Javascript/Project-client.js"></script>
+
+</head>
+<body>
+ <div class="wrapper">
+   <!--wraps everything-->
+   <sction id="top-head">
+     <h1 id="title">SURVEY FORM</h1>
+     <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse corrupti illum earum quis placeat repellendus accusantium minima dolorem minus modi sapiente alias unde pariatur ad repudiandae, eius consectetur est.</p>
+   </sction> <br />
+ <p><b>fill in the rquired information</b></p>
+   <form id="survey-form">
+    
+     <label for="name" id="name-label"> <input id="name" name="name-label" type="text" placeholder="Name" required />Full Name</label> <br /> 
+    
+      <label for="email" id="email-label"><input id="email" name="email-label" type="email" placeholder="email@abc.com" required />Email-address</label> <br />
+  
+      
+       <label for="number" id="number-label"><input id="number" name="number-label" type="number" placeholder="number" required min="1" max="50" />Serial
+         Number</label> <br /> 
+       
+       <fieldset id="dropdown">
+         <legend>Choose correctly<abbr title="This fieldn is mandatory" aria-label="required">*</abbr></legend>
+         <p>
+           <label for="gender">Select Gender</label>
+           <select id="gender">
+             <option value="Male">Male</option>
+             <option value="Female">Female</option>
+             <option value="None">None</option>
+           </select>
+         </p> <br />
+         <p>
+           <label for="Location">Select Preferred Location</label>
+           <select id="Location">
+             <option value="East">East</option>
+             <option value="West">West</option>
+             <option value="North">North</option>
+             <option value="South">South</option>
+           </select>
+         </p>
+
+       </fieldset> <br />
+       
+       <fieldset id="radio buttons">
+         <legend>Choose correctly<abbr title="This field is mandatory" aria-label="required">*</abbr></legend>
+         <P><B>Qualification</B></P>
+
+       <label for="Qualification">Bachelors Degree </label>
+         <input id="qualification" type="radio" name="qualification" value="Bachelors Degree" />
+         <label for="Qualification">Masters Degree </label>
+         <input id="qualification" type="radio" name="qualification" value="Masters Degree" />
+         <label for="Qualification">Ph.D</label>
+         <input id="qualification" type="radio" name="qualification" value="Ph.D" /> <br />
+
+        <p><b>Mode of Learning</b></p>
+          <label for="Mode of Learning">School </label>
+          <input id="Mode of Learning" type="radio" name="Learning-mode" value="School" />
+          <label for="Mode of Learning">School </label>
+          <input id="Mode of Learning" type="radio" name="Learning-mode" value="Home-taught" />
+          <label for="Mode of Learning">Online</label>
+          <input id="Mode of Learning" type="radio" name="Learning-mode" value="Online" /> <br />
+          </fieldset> <br />
+<!--for the purpose of the project-->
+<fieldset id="radio buttons">
+  <legend>Choose correctly<abbr title="This field is mandatory" aria-label="required">*</abbr></legend>
+  <P><B>Knowledge-level</B></P>
+
+  <label for="Newbie">Newbie</label>
+  <input id="Newbie" type="radio" name="Knowledge-level" value="yes" />
+
+  <label for="Advanced">Advanced</label>
+  <input id="Advanced" type="radio" name="Knowledge-level" value="Advanced" />
+  <label for="Veteran">Veteran</label>
+  <input id="Veteran" type="radio" name="Knowledge-level" value="Ph.D" /> <br />
+
+  <p><b>Mode of Learning</b></p>
+  <label for="Mode of Learning">School </label>
+  <input id="Mode of Learning" type="radio" name="Learning-mode" value="School" />
+  <label for="Mode of Learning">School </label>
+  <input id="Mode of Learning" type="radio" name="Learning-mode" value="Home-taught" />
+  <label for="Mode of Learning">Online</label>
+  <input id="Mode of Learning" type="radio" name="Learning-mode" value="Online" /> <br />
+</fieldset> <br />
+            <!--ends here-->
+          <fieldset id="Checkbox buttons">
+            <legend>Choose correctly<abbr title="This field is mandatory" aria-label="required">*</abbr></legend>
+            <P><B>Qualification</B></P>
+
+            <label for="Qualification">Bachelors Degree </label>
+            <input id="qualification" type="checkbox" name="Bachelors" value="Bachelors Degree" />
+            <label for="Qualification">Masters Degree </label>
+            <input id="qualification" type="checkbox" name="Masters Degree" value="Masters Degree" />
+            <label for="Qualification">Ph.D</label>
+            <input id="qualification" type="checkbox" name="Ph.D" value="Ph.D" /> <br />
+
+             <label for="Qualification">Bachelors Degree </label>
+             <input id="qualification" type="checkbox" name="Bachelors" value="Bachelors Degree" />
+             <label for="Qualification">Masters Degree </label>
+             <input id="qualification" type="checkbox" name="Masters Degree" value="Masters Degree" />
+             <label for="Qualification">Ph.D</label>
+             <input id="qualification" type="checkbox" name="Ph.D" value="Ph.D" /> <br />
+          </fieldset> <br />
+
+             <textarea name="Comments" placeholder="Comments"></textarea> </textarea> <br />
+
+             <button id="submit" onclick="functClick()">Finishand Submit <input type="submit" name="submit" value="Finish and Submit" />
+
+
+   </form>
+
+ </div>
+
+  
+</body>
+</html>

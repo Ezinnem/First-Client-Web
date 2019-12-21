@@ -1,11 +1,13 @@
 document.getElementById('issueInputForm').addEventListener('submit', saveIssue);
 
 function saveIssue(e) {
+  e.preventDefault();
   var issueDesc = document.getElementById('issueDescInput').value;
   var issueSeverity = document.getElementById('issueSeverityInput').value;
   var issueAssignedTo = document.getElementById('issueAssignedToInput').value;
   var issueId = chance.guid();
   var issueStatus = 'Open';
+  
 
   var issue = {
     id: issueId,

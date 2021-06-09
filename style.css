@@ -35,7 +35,7 @@ body {
   padding-top: .8rem;
 }
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
-  color: #1EBBA3
+  color: #1e35bb
 }
 
 
@@ -49,7 +49,7 @@ body {
 .caption {
   width: 100%;
   max-width: 100%;
-  position: absolute; 
+  position: absolute;
   top: 38%;
   z-index: 1;
   color: #FFF;
@@ -91,8 +91,8 @@ body {
   font-size: 1.2rem;
   text-transform: uppercase;
   margin: 1rem;
-  border-color: #1EBBA3;
-  background-color: #1EBBA3;
+  border-color: #2e1ebb;
+  background-color: #1e35bb;
   color: white;
 }
 .btn-secondary:hover,
@@ -118,12 +118,12 @@ h3.heading {
 .heading-underline{
   width: 3rem;
   height: .2rem;
-  background-color: #1EBBA3;
+  background-color: #1e35bb;
   margin: 0 auto 2rem;
 
 }
 .feature svg.svg-inline--fa{
-  color: #1EBBA3
+  color: #1e35bb
 }
 .feature h3 {
   font-size: 1.3rem;
@@ -148,7 +148,7 @@ h3.heading {
   margin-bottom: 2rem;
 
 }
- 
+
 .fixed-background p {
 margin-top: 1.5rem;
 }
@@ -161,11 +161,11 @@ margin-top: 1.5rem;
 }
 
 blockquote svg.svg-inline--fa{
-  color: #1EBBA3;
+  color: #1e35bb;
   margin: 1rem;
 }
 .clients-hr {
-  border-top: .05rem solid #1EBBA3;
+  border-top: .05rem solid #1e35bb;
 }
 /* Conatct section */
 footer {
@@ -190,7 +190,7 @@ footer svg.svg-inline--fa{
 }
 
 footer svg.svg-inline--fa:hover {
-  color: #1EBBA3 !important;
+  color: #1e35bb !important;
 }
 
 hr.socket {
@@ -210,7 +210,7 @@ hr.socket {
     font-size: 1.2rem;
     padding-bottom: 1.2rem;
   }
-  
+
   .btn-lg {
     padding: .5rem 1rem;
     font-size: 1rem;
